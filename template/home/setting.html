@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html >
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<title>设置</title>
+<link rel="stylesheet" href="../../css/index.css">
+<link rel="stylesheet" href="../../css/home.css">
+<!-- <link rel="stylesheet" href="css/swiper.min.css"> -->
+<script src="../../js/jquery-1.11.1.js"></script>
+<!-- <script src="js/swiper.min.js"></script> -->
+<style>
+</style>
+</head>
+<body style="background:#f5f2f2;">
+<header id="I_head">
+	<div class="head_div">
+		<p class="fx_p"><i class="i_fh"></i>个人信息</p>
+	</div>
+</header>
+<section id="st_sec">
+	<div class="st_div">
+		<ul>
+			<li class="nth_one">
+				<p class="left">头像</p>
+				<p class="right">
+					<img src="../../images/new/name.png" alt=""><i></i>
+				</p>
+			</li>
+			<li>
+				<p class="left">昵称</p>
+				<p class="right">董小云<i></i></p>
+			</li>
+			<li>
+				<p class="left">微信</p><p class="right">DXY<i></i></p>
+			</li>
+			<li>
+				<p class="left">性别</p>
+				<p class="right">女&nbsp;&nbsp;&nbsp;&nbsp;</p>
+			</li>
+			<li>
+				<p class="left">年龄</p>
+				<p class="right">22<i></i></p>
+			</li>
+			<li>
+				<p class="left">类型</p>
+				<p class="right">活波可爱<i></i></p>
+			</li>
+			<li>
+				<p class="left">签名</p>
+				<p class="right">此心安处是吾乡<i></i></p>
+			</li>
+			<li>
+				<p class="left">好评率</p>
+				<p class="right">99%&nbsp;&nbsp;&nbsp;&nbsp;</p>
+			</li>
+		</ul>
+	</div>
+</section>
+<script>
+	$('.i_fh').click(function(){
+		window.history.go(-1)
+	})
+    $().ready(function(){
+        $(".in_ul li").mouseover(function(){
+            var _index = $(this).index();
+            $(".div_cent>div").eq(_index).show().siblings().hide();
+        $(this).addClass("activ").siblings().removeClass("activ");
+        });
+    });
+
+
+  </script>
+
+</body> 
+
+</html>

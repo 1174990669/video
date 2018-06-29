@@ -1,0 +1,87 @@
+/*  */
+@charset "utf-8";
+#st_sec{background:#f5f2f2;}
+#st_sec .st_div{}
+#st_sec .st_div ul{text-align:center;background:#fff;border-top: 8px solid #f5f2f2;}
+#st_sec .st_div li{width:94%;border-bottom: 1px solid #f5f2f2;height:50px;line-height:64px;font-size:16px;}
+#st_sec .st_div li:nth-of-type(3){border-bottom:14px solid #f5f2f2;padding:0 3%;}
+#st_sec .st_div li:nth-of-type(5){border-bottom:14px solid #f5f2f2;padding:0 3%;}
+#st_sec .st_div .nth_one>p{height:50px;}
+#st_sec .st_div .nth_one>.left{line-height:50px;}
+#st_sec .st_div .nth_one>.right{line-height:46px;}
+#st_sec .st_div .nth_one img{width:40px;line-height:50px;}
+#st_sec .st_div .nth_one i{margin-top: 14px;}
+#st_sec .st_div img{}
+#st_sec .st_div p{display:inline-block;height:24px;line-height:24px;overflow: hidden;}
+#st_sec .st_div .left{width:20%;text-align:left;}
+#st_sec .st_div .right{width:78%;text-align:right;text-overflow: ellipsis;white-space: nowrap;}
+#st_sec .st_div i{display:inline-block;background:url(../images/home/go.png);background-size:100% 100%;width:24px;height:24px;float:right;}
+
+/* 我的金币 */
+.mo_sect{background:#f5f2f2;padding:55px 0 30px;}
+.mo_sect .mo_one{height:120px;background:#fffdfd;text-align: center;border-bottom:14px solid #f5f2f2;}
+.mo_sect .mo_one p{padding:30px 0 2px 0;font-size:16px;}
+.mo_sect .mo_one b{font-size:24px;font-family: "宋体";color:#f94a3d;}
+/*.mo_sect .mo_two{} */
+.mo_sect .div_p{background-color:#fff;}
+/*.mo_sect .mo_two p{padding:0 3%;height:44px;line-height:44px;border-bottom:1px solid #eee;font-size:16px;color:#999;}*/
+.mo_sect .div_p .p_16{padding:0 3%;height:44px;line-height:44px;border-bottom:1px solid #eee;font-size:16px;color:#999;}
+.mo_sect .mo_two ul{padding:10px 3% 0;}
+.mo_sect .mo_two li{width:25%;height:50px;line-height:50px;}
+.mo_sect .mo_two li p{display:inline-block;width:80%;height:38px;line-height:38px;border-radius:30px;border:1px solid #cfcfcf;color:#626262;font-size:12px;}
+.mo_sect .mo_two .p_f18{font-size:18px;color:#333;border-bottom:none;}
+.mo_sect .mo_two .p_f18>span{font-size:24px;color:#f94a3d;}
+.mo_sect .mo_two .activ>p{border:none;background:#13c5ff;color:#fff;}
+
+.mo_sect .mo_thr{border-top:14px solid #f5f2f2;}
+.mo_sect .mo_thr div{height:60px;line-height:60px;padding:0 3%;border-bottom: 1px solid #eee;font-size:16px;}
+.mo_sect .mo_thr div img{width:40px;}
+.mo_sect .mo_thr div i{}
+.mo_sect .mo_thr div .i_icon{background:url(../images/home/charge-money_icon_default.png);background-size: 100% 100%;display:inline-block;width: 24px;height:24px;margin:18px;float:right;}
+.mo_sect .mo_thr .icon .i_iconTwo{background:url(../images/home/charge-money_icon_pitch-on.png);background-size: 100% 100%;}
+.mo_sect .d_but{width:80%;margin:30px auto 0;height:50px;line-height:50px;font-size:18px;text-align:center;color:#fff;background:#00c0ff;border-radius:30px;}
+
+/* 收费设置 */
+.ch_sect{padding:55px 0 10px;background:#f5f2f2;}
+.ch_sect .d_cent{height:40px;line-height:40px;padding-left: 3%;color:#999;}
+.ch_sect .d_ul{}
+.ch_sect .d_ul ul{padding:0 3%;background:#fff;}
+.ch_sect .d_ul li{width:100%;border-bottom: 1px solid #eee;height:50px;line-height:50px;text-align:left;font-size:16px;}
+.ch_sect .d_ul i{}
+.ch_sect .d_ul .i_icon{background:url(../images/home/charge-money_icon_default.png);background-size: 100% 100%;display:inline-block;width: 24px;height:24px;margin:18px;float:right;}
+.ch_sect .d_ul .l_icon .i_iconTwo{background:url(../images/home/charge-money_icon_pitch-on.png);background-size: 100% 100%;}
+
+/* 我的收益 */
+.mo_sect .Solid{border-bottom:1px solid #eee;background:#fff;}
+.mo_sect .d_Profit{border-top: 0;}
+.mo_sect .d_Profit .Profit{color: #333;}
+.mo_sect .d_Profit .Profit span{color: #f76060;}
+.mo_sect .d_Profit div{padding-right: 0;}
+.mo_sect .d_Profit div img{width:30px;}
+.mo_sect .d_Profit div .Pro_icon{background: url(../images/home/go.png);background-size: 100% 100%;}
+
+/* 通话记录 */
+.call{padding:55px 0 30px;}
+.call .call_tit{border-top:10px solid #f5f2f2;background:#fff;}
+.call .call_tit li{position:relative;width:50%;height:50px;line-height:50px;font-size:16px;}
+.call .call_tit .li_after:after{content: '';position: absolute;height:2px;width:40%;background:#00c0ff;bottom:0;left:30%;}
+.call .call_cent{background-color:#fff;border-top:1px solid #f5f2f2;} 
+.call .call_cent .ca_div{} 
+.call .call_cent .d_cen{display:none;} 
+.call .call_cent .ca_div ol{font-size:0;border-bottom:10px solid #f5f2f2;} 
+.call .call_cent .ca_div ol li{width:25%;font-size:14px;height:50px;line-height:50px;color:#7d7d7d;} 
+.call .call_cent .ca_div ul{border-bottom: 1px solid #f5f2f2;} 
+.call .call_cent .ca_div ul li{width:25%;height:70px;line-height:70px;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;} 
+.call .call_cent .ca_div ul li:nth-of-type(2n){color:#7d7d7d;} 
+
+/* 密拍记录 */
+.call .beat_cent{background-color:#fff;border-top:1px solid #f5f2f2;}
+.call .beat_cent .d_cen{display:none;} 
+.call .beat_cent .be_div ol{font-size:0;border-bottom:10px solid #f5f2f2;} 
+.call .beat_cent .d_tit ol li{width:33.3%;font-size:14px;height:50px;line-height:50px;color:#7d7d7d;} 
+.call .beat_cent .d_cen ol li{width:25%;font-size:14px;height:50px;line-height:50px;color:#7d7d7d;} 
+.call .beat_cent .be_div ul{border-bottom: 1px solid #f5f2f2;} 
+.call .beat_cent .d_tit ul li{width:33.3%;height:100px;line-height:100px;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;} 
+.call .beat_cent .d_cen ul li{width:25%;height:100px;line-height:100px;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;} 
+.call .beat_cent .be_div ul li:last-child{color:#7d7d7d;}
+.call .beat_cent .be_div li img{width:74px;}
